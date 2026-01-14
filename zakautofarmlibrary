@@ -92,7 +92,7 @@ local upgrade_history = {}
 shared.TDS_Table = TDS
 
 -- // ui
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Sources/GuiSource.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zak-rgb/zak-s-tds-autofarm-pro-ez/refs/heads/main/zakui"))()
 local Console = shared.AutoStratGUI.Console
 
 shared.AutoStratGUI.Status(tostring(game_state))
