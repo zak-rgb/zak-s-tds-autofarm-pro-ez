@@ -331,7 +331,7 @@ local function handle_post_match()
     end
 
     local post_data = {
-        username = "TDS AutoStrat",
+        username = "Zak's Autofarm Goon",
         embeds = {{
             title = (match.Status == "WIN" and "🏆 TRIUMPH" or "💀 DEFEAT"),
             color = (match.Status == "WIN" and 0x2ecc71 or 0xe74c3c),
@@ -387,10 +387,10 @@ local function log_match_start()
     if _G.WebhookURL:find("YOUR%-WEBHOOK") then return end
     
     local start_payload = {
-        username = "TDS AutoStrat",
+        username = "Zak's Autofarm Goon",
         embeds = {{
             title = "🚀 **Match Started Successfully**",
-            description = "The AutoStrat has successfully loaded into a new game session and is beginning execution.",
+            description = "Zak's Autofarming Goon has successfully loaded into a new game session and is beginning execution.",
             color = 3447003,
             fields = {
                 {
